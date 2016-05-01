@@ -32,6 +32,10 @@ namespace Lesson1._1
             {
                 Console.WriteLine("Число вне диапазона int");            
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             Console.ReadKey();
         }
     }
