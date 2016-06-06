@@ -11,7 +11,14 @@ namespace Lesson5
 
     static void Main(string[] args)
         {
-            Client client = new Client();
+            Console.WriteLine("Введите телефон и сумму заказа");
+            IPClient ipClient = new IPClient("Евлампий Сгибатель", "10.03.1927");
+            Console.WriteLine(ipClient.PrintNameAndSum());
+
+            Console.WriteLine("Введите телефон и сумму заказа");
+            OOOClient oooClient = new OOOClient("Раковины и панцири", "314159265359");
+            Console.WriteLine(oooClient.PrintNameAndSum());
+
             Console.ReadKey();
         }
     }
