@@ -16,7 +16,6 @@ namespace HomeTask3._1
 
         private static Dictionary<char, int> FillDictionary(string str)
         {
-            int i = 1;
             Dictionary<char, int> symbols = new Dictionary<char, int>();
             foreach (char symbol in str)
             {
@@ -26,7 +25,7 @@ namespace HomeTask3._1
                 }
                 else
                 {
-                    symbols.Add(symbol, i);
+                    symbols.Add(symbol, 1);
                 }
             }
             return symbols;
