@@ -7,8 +7,8 @@
     <ProjectGuid>{E74017BB-8A25-4135-99B4-60F16AA3725B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HomTask12</RootNamespace>
-    <AssemblyName>HomTask12</AssemblyName>
+    <RootNamespace>HomeTask12</RootNamespace>
+    <AssemblyName>HomeTask12</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
